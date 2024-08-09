@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Catálogo de Productos</h1>
+    <input type="text" id="searchBar" placeholder="Buscar productos...">
+
+    <div class="productos" id="productos">
+        <!-- Productos se cargarán aquí con JavaScript -->
+    </div>
+
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="closeBtn">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <img id="modalImage" src="" alt="">
+            <p id="modalDescription"></p>
+            <p id="modalPrice"></p>
+        </div>
+    </div>
+
+    <script src="./data.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
